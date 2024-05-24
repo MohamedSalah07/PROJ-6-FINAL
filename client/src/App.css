@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e0f7fa;
+}
+
+.app {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #00796b;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-section, .activitylist-section {
+  background-color: rgb(182, 7, 213);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #0ae83e;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00796b;
+  color: rgb(228, 11, 11);
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #3d2579;
+}
+
+.activitylist {
+  text-align: left;
+}
+
+.activitylist ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activitylist li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #030c0c;
+  border: 1px solid #00796b;
+  border-radius: 5px;
+}
+
+.activitylist h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #8909eb;
+}
+
+.activitylist p {
+  margin: 5px 0 0;
+  color: #0bf3cc;
+}
